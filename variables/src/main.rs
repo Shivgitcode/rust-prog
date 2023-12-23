@@ -9,6 +9,10 @@ fn main() {
     // _x=33;
     let x=_tuple.0;
 
+    let numbers=[1,2,3,4,5,6];
+
+    let floats:[f64;5]=[3.5,4.0,5.6,3.8,2.4];
+
 
     println!("The value of x is {_x}");
     println!("The value of f is {_f}");
@@ -17,6 +21,9 @@ fn main() {
     println!("{}",a1);   
     println!("{}",a2);   
     println!("{}",a3);   
+    println!("{}",numbers[0]);
+    println!("{}",numbers[4]);
+    println!("{}",floats[2])
     
 
 
